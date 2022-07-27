@@ -1,10 +1,8 @@
 # Importing the required modules 
 import pandas as pd
 import numpy as np
-from sklearn.model_selection
-import StratifiedShuffleSplit #import to have equal weigtage samples in training dataset
-from sklearn.tree
-import DecisionTreeRegressor # import for Decision Tree Algorithm
+from sklearn.model_selection import StratifiedShuffleSplit #import to have equal weigtage samples in training dataset
+from sklearn.tree import DecisionTreeRegressor # import for Decision Tree Algorithm
 import pickle
 from sklearn.preprocessing import StandardScaler
 from sklearn.svm import SVR #import for support vector regressor
